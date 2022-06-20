@@ -1,0 +1,91 @@
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 20px;
+  padding: 60px 0;
+  width: 100%;
+}
+.footer p {
+  color: #8a8a8a;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1 {
+  flex-basis: 30px;
+  text-align: center;
+}
+
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+  font-size: 30px;
+}
+.footer-col-2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+
+.footer-col-4 ul {
+  display: inline-block;
+}
+
+.footer-col-4 ul li {
+  display: inline-block;
+  padding: 3px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+.app-logo {
+  margin-top: 20px;
+  width: 50%;
+  font-size: 16px;
+  display: inline-block;
+}
+.footer-col-1 ul li {
+  display: inline-block;
+}
+.app-logo img {
+  width: 14px;
+  margin: 2px;
+}
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright {
+  text-align: left;
+}

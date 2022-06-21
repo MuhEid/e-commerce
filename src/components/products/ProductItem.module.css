@@ -6,6 +6,8 @@
   min-width: 200px;
   margin-bottom: 2rem;
   align-items: center;
+  width: 25%;
+
 }
 
 .content {
@@ -32,6 +34,13 @@
   background-color: #294728; /* Green */
   cursor: pointer;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px){
+  .productCard{
+    width: 100%;
+  }
+
 }
 
 /*          Max's  Code */

@@ -1,9 +1,11 @@
 import React from 'react';
-import './Footer.css'
+import { Link } from 'react-router-dom';
+import Logo from '../Navbar/Logo';
+import './Footer.css';
 
 export default function Footer() {
   return (
-    <div>      
+    <div>
       <div class="footer">
         <div class="container">
           <div class="row">
@@ -19,27 +21,19 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="footer-col-2">
-              <a href="index.html">
-                <p id="pure">
-                  Pure <span id="hands">Hands</span>
-                </p>
-              </a>
 
-              <p>
-                Purely made by Hands
-                <br />
-                Made with Love
-              </p>
+            <div className="footerLogo">
+              <Logo />
             </div>
+
             <div class="footer-col-3">
               <h3>Useful Links</h3>
               <ul>
                 <li>
-                  <a href="about.html">About</a>
+                  <Link href="about.html">About</Link>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <Link href="contact.html">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -48,7 +42,7 @@ export default function Footer() {
               <h3>Follow us</h3>
               <ul>
                 <li>
-                  <img src="src/assets/icons8-facebook-30.png" alt="" />
+                  <img src="assets/icons8-facebook-30.png" alt="" />
                 </li>
                 <li>
                   <img src="assets/icons8-instagram-30.png" alt="" />

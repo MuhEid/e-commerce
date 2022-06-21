@@ -1,0 +1,17 @@
+.logo{
+    display: flex;
+    align-items: center;    
+}
+.pure {
+  font-family: 'wintersoulregular';
+  font-style: italic;
+  color: black;
+  font-size: 30px;
+}
+
+.hands {
+  color: green;
+  font-family: 'Valkyrie';
+  font-weight: lighter;
+  font-style: normal;
+}

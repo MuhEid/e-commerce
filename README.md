@@ -7,11 +7,11 @@
 3. Fix the colors of the nav bar
 4. add more products
 5. add "add to cart" feature. 
-6. fix the a tag to be the Link tag foe the rest of the files 
+6. fix the a tag to be the Link tag for the rest of the files 
 7. add the contact me form 
 8. add the form validation from the prev react task.
 9. make the logo a component on its own
-10.
+10. hghghghghghghg 
 
 
 

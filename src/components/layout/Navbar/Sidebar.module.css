@@ -1,0 +1,49 @@
+.sidebar {
+  display: flex;
+  color: rgb(107, 107, 107);
+}
+
+.sidebar .list a {
+  margin-right: 2rem;
+  font-size: 25px;
+  transition: all 0.3s ease-in;
+}
+.sidebar .list a :hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  background: none;
+  border: none;
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 881px) {
+  .sidebar .list a {
+    font-size: 20px;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    display: flex;
+  }
+  .list {
+    display: none;
+  }
+  #hidden {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 100%;
+    background-color: rgba(82, 121, 77, 0.829);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list a {
+    color: white;
+  }
+}

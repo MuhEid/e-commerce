@@ -2,8 +2,8 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import AboutPage from './pages/About';
-import MyNav from './components/layout/MyNav';
-import Footer from './components/Footer';
+import MyNav from './components/layout/Navbar/MyNav';
+import Footer from './components/layout/Footer/Footer';
 import Contact from './pages/Contact';
 
 function App() {

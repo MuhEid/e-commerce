@@ -26,7 +26,7 @@ export default function Footer() {
               <Logo />
             </div>
 
-            <div class="footer-col-3">
+            <div class="footerLinks">
               <h3>Useful Links</h3>
               <ul>
                 <li>

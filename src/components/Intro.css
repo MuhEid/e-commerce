@@ -33,10 +33,11 @@
   display: inline-block;
   background-color: green;
   color: #fff;
-  padding: 8px 30px;
+  padding: 10px 30px;
   margin: 30px 0;
   border-radius: 5px;
   transition: background 0.5s;
+  border: none;
 }
 
 .btn:hover {

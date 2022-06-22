@@ -1,12 +1,12 @@
 .sidebar {
-  display: flex;
-  color: rgb(107, 107, 107);
+  display: flex;  
 }
 
 .sidebar .list a {
   margin-right: 2rem;
   font-size: 25px;
   transition: all 0.3s ease-in;
+  color: black;
 }
 .sidebar .list a :hover {
   transform: scale(1.1);
@@ -19,10 +19,10 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 881px) {
+@media only screen and (max-width: 943px) {
   .sidebar .list a {
     font-size: 20px;
-    margin-right: 1rem;
+    margin-right: 0.75rem;
   }
 }
 

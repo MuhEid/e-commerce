@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import AboutPage from './pages/About';
 import MyNav from './components/layout/Navbar/MyNav';
 import Footer from './components/layout/Footer/Footer';
-import Contact from './pages/Contact';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <AboutPage />
         </Route>
         <Route>
-          <Contact />
+          <Login path="/login"/>
         </Route>
       </Switch>
       <Footer/>

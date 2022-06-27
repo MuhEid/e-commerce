@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../Navbar/Logo';
+import Logo from '../../UI/Logo';
 import './Footer.css';
 
 export default function Footer() {

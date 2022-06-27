@@ -22,6 +22,7 @@
 4. add a picture at the end to show an offer 
 5. create a button component 
 6. change the intro image to somthing big great mothrfuckign AWESOMEEEE
+7. replace the dropdown menu in the nav bar by one from material ui
 
 ### login inputs 
 1. get the data using useRef() varName.current.value

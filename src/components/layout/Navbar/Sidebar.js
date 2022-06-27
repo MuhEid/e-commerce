@@ -11,9 +11,8 @@ export default function Sidebar() {
     <div className={classes.sidebar}>
       <div className={classes.list} id={showSidebar ? `${classes.hidden}` : ''}>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Login</Link>
-        <Link to="/allProducts">All products</Link>
+        <Link to="/allproducts">Best Deals</Link>       
+        <Link to="/login">Sign In</Link>
         <Link to="/cart">
           <ShoppingCartIcon />
         </Link>

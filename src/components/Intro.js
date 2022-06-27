@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Intro.css";
+import './Intro.css';
 
 export default function Intro() {
   return (
-    <div className='container'>
+    <div className="container">
       <div className="row">
         <div className="col-2">
           <h1>
@@ -13,11 +13,14 @@ export default function Intro() {
             Made with Love
           </h1>
           <p>
-            online hub for the talented to show thier hand-made products
+            Decor your home with love 
+            Meeting your needs 
+            Your local skilled craftsmanship {/*(with edits) */}
+            turning your imagination into reality
             <br />
             easy to buy .. easy to sell
           </p>
-          <Link to='/about' className="btn">
+          <Link to="/about" className="btn">
             Explore Now &#8594;
           </Link>
         </div>

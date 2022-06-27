@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './inputs.css';
 
 const UserInput = (props) => {
@@ -7,6 +7,7 @@ const UserInput = (props) => {
   const [enteredEmail, setEnteredEmail] = useState('');
   const [enteredPassword, setEnteredPassword] = useState('');
 
+  const [loggedIn, setLoggedIn] = useState(false);
   // Validation
   // invalid Check
 
@@ -34,6 +35,19 @@ const UserInput = (props) => {
       setInvalidPassword(true);
     }
   };
+
+  // Login Handler
+
+  const loginHandler = () => {
+    localStorage.setItem('isLoggedIn', '1');
+  };
+
+  useEffect(() => {
+    const loggedInInfo = localStorage.getItem('isLoggedIn');
+    if (loggedInInfo === '1') {
+      setLoggedIn(true);
+    }
+  }, []);
 
   // handling submitting the data
 
@@ -89,7 +103,7 @@ const UserInput = (props) => {
         </div>
       </div>
       <div className="new-expense__actions">
-        <button className="btn" type="submit">
+        <button className="btn" type="submit" onClick={loginHandler}>
           Login
         </button>
       </div>

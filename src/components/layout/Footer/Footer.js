@@ -6,39 +6,35 @@ import './Footer.css';
 export default function Footer() {
   return (
     <div>
-      <div class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col-1">
+      <div className="footer">
+        <div className="container">
+          <div className="row">
+            <div className="footerDetails">
               <h3>Contact Details</h3>
               <p>Feel free to reach out to us in case of any queries.</p>
-              <ul class="app-logo">
-                <li>
-                  <img src="assets/icons8-phone-24.png" alt="" />
-                </li>
-                <li>
-                  <p>+2 011 124058 07</p>
-                </li>
-              </ul>
+              <div className="contact-info">
+                <img src="assets/icons8-phone-24.png" alt="" />
+                <p>+20 1112 4058 07</p>
+              </div>
             </div>
 
             <div className="footerLogo">
               <Logo />
             </div>
 
-            <div class="footerLinks">
+            <div className="footerLinks">
               <h3>Useful Links</h3>
               <ul>
                 <li>
-                  <Link href="about.html">About</Link>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link href="contact.html">Contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
 
-            <div className="footer-col-4">
+            <div className="footerIcons">
               <h3>Follow us</h3>
               <ul>
                 <li>
@@ -57,7 +53,7 @@ export default function Footer() {
             </div>
           </div>
           <hr />
-          <p class="copyright">All rights reserved - Pure Hands 2022</p>
+          <p className="copyright">All rights reserved - Pure Hands 2022</p>
         </div>
       </div>
     </div>
